@@ -1,0 +1,75 @@
+{
+  "name": "TestPublish",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.12.0.0",
+  "projectVersion": "1.0.128784086",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "69673e52-ff0d-40ba-aab8-849f37e00b40",
+        "testCaseType": "TestCase",
+        "fileName": "TestCasePublishOrch.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d89bae0c-2a3d-4a9d-b489-90913a65f18b",
+        "testCaseType": "TestCase",
+        "fileName": "TestCasePublishOrchAndTM.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "76677eed-9420-43b3-9bc2-694643e164db",
+        "testCaseType": "TestCase",
+        "fileName": "TestCasePublishTM.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1d8e1dfa-44e0-4e12-8bb2-e3284506f87d",
+        "testCaseType": "TestCase",
+        "fileName": "TestCaseNotPublish.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
